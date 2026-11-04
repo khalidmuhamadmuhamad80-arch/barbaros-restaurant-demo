@@ -1,18 +1,20 @@
-export const WHATSAPP_NUMBER = '201000000000';
+export const WHATSAPP_NUMBER = '201027243191';
 
 export const deliveryLocations = {
   cities: [
-    { id: 'minya', name: 'مدينة المنيا', fee: 20 },
-    { id: 'mallawi', name: 'ملوي', fee: 30 },
-    { id: 'samalout', name: 'سمالوط', fee: 30 },
-    { id: 'abu-qurqas', name: 'أبو قرقاص', fee: 35 },
+    { id: 'mallawi', name: 'ملوي', fee: 70 },
+    { id: 'deir-mawas', name: 'دير مواس', fee: 10 },
   ],
 
-  villages: [
-    { id: 'sheikh-fadl', name: 'قرية الشيخ فضل', fee: 25 },
-    { id: 'bani-ahmed', name: 'قرية بني أحمد', fee: 30 },
-    { id: 'taha-el-gabal', name: 'قرية طه الجبل', fee: 35 },
-  ],
+villages: [
+  { id: 'bani-imran', name: 'قرية بني عمران', fee: 0 },
+  { id: 'el-hasaybah', name: 'قرية الحسايبة', fee: 15 },
+  { id: 'bani-haram', name: 'قرية بني حارم', fee: 20 },
+  { id: 'tanawaf', name: 'قرية تانواف', fee: 20 },
+  { id: 'el-omareya-el-sharqeya', name: 'قرية العمرية الشرقية', fee: 30 },
+  { id: 'el-omareya-el-gharbeya', name: 'قرية العمرية الغربية', fee: 20},
+  { id: 'el-hag-qandil', name: 'قرية الحج قنديل', fee: 25 },
+],
 };
 
 export const allDeliveryLocations = [

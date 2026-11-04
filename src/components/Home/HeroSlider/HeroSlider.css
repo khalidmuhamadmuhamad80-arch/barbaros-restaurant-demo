@@ -46,7 +46,8 @@
   font-weight: 800;
 }
 
-.hero-content h1 {
+.hero-content h1,
+.hero-content h2 {
   margin-bottom: 8px;
   font-size: 34px;
   font-weight: 800;
@@ -125,11 +126,12 @@
     font-size: 11px;
   }
 
-  .hero-content h1 {
-    margin-bottom: 5px;
-    font-size: 21px;
-    line-height: 1.5;
-  }
+.hero-content h1,
+.hero-content h2 {
+  margin-bottom: 5px;
+  font-size: 21px;
+  line-height: 1.5;
+}
 
   .hero-content p {
     font-size: 13px;

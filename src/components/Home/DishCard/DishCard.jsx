@@ -6,16 +6,17 @@ function DishCard({ item, onAdd, compact = false }) {
     <article className={`dish-card ${compact ? 'compact' : ''}`}>
       <div
         className="dish-image"
-        style={{
-          backgroundColor: item.color,
-          backgroundImage: item.image ? `url("${item.image}")` : 'none',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat',
-        }}
-        role="img"
-        aria-label={item.name}
-      />
+        style={{ backgroundColor: item.color }}
+      >
+        {item.image && (
+          <img
+            src={item.image}
+            alt={`${item.name} من الشيف نونوه`}
+            loading="lazy"
+            decoding="async"
+          />
+        )}
+      </div>
 
       <div className="dish-info">
         <h3 className="dish-name">{item.name}</h3>

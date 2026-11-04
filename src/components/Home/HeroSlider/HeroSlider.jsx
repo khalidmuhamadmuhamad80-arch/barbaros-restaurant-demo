@@ -6,8 +6,8 @@ const slides = [
   {
     id: 1,
     tag: 'عرض جديد',
-    title: 'خصم 25% على الكشري',
-    subtitle: 'كل يوم جمعة، اطلب من الموقع',
+    title: 'أشهى الأكلات الشعبية من الشيف نونوه',
+    subtitle: 'خصم 25% على الكشري كل يوم جمعة، اطلب من الموقع',
     background: 'linear-gradient(110deg, #c8321e, #f2761e)',
     image: '/images/banners/banner-1.jpg',
   },
@@ -47,17 +47,21 @@ function HeroSlider() {
           key={slide.id}
           className={`hero-slide ${index === activeSlide ? 'active' : ''}`}
           style={{
-             backgroundImage: `url("${slide.image}")`,
-             backgroundSize: 'cover',
-             backgroundPosition: 'center',
-             backgroundRepeat: 'no-repeat',
+            backgroundImage: `url("${slide.image}")`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
           }}
           aria-hidden={index !== activeSlide}
         >
           <div className="hero-content">
             <span className="hero-tag">{slide.tag}</span>
 
-            <h1>{slide.title}</h1>
+            {index === 0 ? (
+              <h1>{slide.title}</h1>
+            ) : (
+              <h2>{slide.title}</h2>
+            )}
 
             <p>{slide.subtitle}</p>
           </div>

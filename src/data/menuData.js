@@ -4,7 +4,7 @@ export const dishes = [
     id: 1,
     name: 'كشري',
     price: 15,
-    description: 'طبق كشري مظبوط على أصوله.. سخن ومستنيك!',
+    description: 'طبق كشري مصري بمكوناته الشهية، يُقدم ساخنًا بطعم مميز.',
     color: '#f6c27a',
     image: '/images/dishes/koshary.jpg',
   },
@@ -12,7 +12,7 @@ export const dishes = [
     id: 2,
     name: 'طاجن فراخ',
     price: 35,
-    description: 'طاجن فراخ سخن وطعمه حكاية.. جربه ومش هتندم!',
+    description: 'طاجن فراخ ساخن بتسوية مظبوطة وطعم شهي.',
     color: '#e9967a',
     image: '/images/dishes/tajin farkh.jpg',
   },
@@ -20,31 +20,31 @@ export const dishes = [
     id: 3,
     name: 'طاجن لحمة',
     price: 45,
-    description: 'لحمة طرية وتسوية مظبوطة.. الطاجن اللي على مزاجك!',
+    description: 'طاجن لحمة بقطع طرية وتسوية مميزة.',
     color: '#e3b778',
     image: '/images/dishes/tajin lahmah.jpg',
   },
   {
     id: 25,
-    name: '  1 حواوشي',
+    name: 'حواوشي',
     price: 0,
-    description: 'عيش محمص وحشوة لحمة متبلة.. الحق الحواوشي السخن!',
+    description: 'حواوشي باللحمة المتبلة داخل عيش محمص وشهي.',
     color: '#d99b68',
     image: '/images/dishes/hawawshi.jpg',
   },
   {
     id: 5,
-    name: '    1 كريب جبنه',
+    name: 'كريب جبنة',
     price: 20,
-    description: 'كريب محشي لحمة بطعم يفتح النفس.. اطلبه دلوقتي!',
+    description: 'كريب بالجبنة بطعم شهي وقوام لذيذ.',
     color: '#c98b65',
     image: '/images/dishes/karab khadarah.jpg',
   },
   {
     id: 6,
-    name: '1 كريب فراخ',
+    name: 'كريب فراخ',
     price: 30,
-    description: 'فراخ متبلة في كريب لذيذ.. لقمة ورا لقمة!',
+    description: 'كريب محشو بالفراخ المتبلة بطعم مميز.',
     color: '#e8bd83',
     image: '/images/dishes/karab farkh.jpg',
   },
@@ -52,7 +52,7 @@ export const dishes = [
     id: 7,
     name: '4 صوابع كفتة',
     price: 60,
-    description: 'أربع صوابع كفتة متبلة.. الحقها وهي سخنة!',
+    description: 'أربع صوابع كفتة متبلة ومجهزة بطعم شهي.',
     color: '#bd7656',
     image: '/images/dishes/kafatuh.jpg',
   },
@@ -60,15 +60,15 @@ export const dishes = [
     id: 8,
     name: '4 صوابع كباب',
     price: 70,
-    description: 'كباب على الجريل مع رز معمر.. وجبة تشبع وتبسطك!',
+    description: 'أربع صوابع كباب مع أرز معمر في وجبة شهية.',
     color: '#b9825b',
     image: '/images/dishes/kebab.jpg',
   },
   {
     id: 9,
-    name: '1 خرطه بشاميل',
+    name: 'صينية بشاميل',
     price: 25,
-    description: 'وش بشاميل دهبي وطعم بيتي أصيل.. مستني إيه؟',
+    description: 'مكرونة بشاميل بوجه ذهبي وطعم بيتي مميز.',
     color: '#f0c987',
     image: '/images/dishes/BashamL.jpg',
   },
@@ -76,13 +76,11 @@ export const dishes = [
     id: 10,
     name: 'ملوخية',
     price: 20,
-    description: 'ملوخية خضرا بطعم البيت.. متكملش أكلك من غيرها!',
+    description: 'ملوخية خضراء بطعم بيتي شهي.',
     color: '#b9c87a',
     image: '/images/dishes/mulukhiyah.jpg',
   },
 ];
-
-
 
 export const drinks = [
   {
@@ -113,7 +111,7 @@ export const drinks = [
   },
   {
     id: 105,
-    name: 'إزازة إستنج',
+    name: 'زجاجة إستي',
     price: 10,
     color: '#e6b65c',
     image: '/images/drinks/esty-bottle.jpg',
@@ -141,7 +139,7 @@ export const drinks = [
   },
   {
     id: 109,
-    name: 'عصير كول يوم',
+    name: 'عصير كول داي',
     price: 8,
     color: '#e8c45e',
     image: '/images/drinks/juice every day.jpg',
@@ -158,21 +156,19 @@ export const drinks = [
 export const extras = [
   {
     id: 201,
-    name: '1 عيش بلدي',
+    name: 'عيش بلدي',
     price: 1,
-
     image: '/images/extras/eaysh baladiun.jpg',
   },
   {
     id: 202,
-    name: '1 عيش شامي',
+    name: 'عيش شامي',
     price: 2,
-    
     image: '/images/extras/eaysh shamiun.jpg',
   },
   {
     id: 203,
-    name: ' 1 عيش فينو',
+    name: 'عيش فينو',
     price: 3,
     color: '#e9c18a',
     image: '/images/extras/eish finw.jpg',
@@ -181,15 +177,13 @@ export const extras = [
     id: 204,
     name: 'مخلل',
     price: 5,
-
     color: '#b5d68c',
     image: '/images/extras/mukhalal.jpg',
   },
   {
     id: 205,
-    name: ' 1 طحينة',
+    name: 'طحينة',
     price: 5,
-
     color: '#eddab0',
     image: '/images/extras/tahina.jpg',
   },
@@ -202,7 +196,7 @@ export const extras = [
   },
   {
     id: 207,
-    name: '1 كتشاب',
+    name: 'كاتشب',
     price: 2,
     color: '#d95745',
     image: '/images/extras/katashib.jpg',

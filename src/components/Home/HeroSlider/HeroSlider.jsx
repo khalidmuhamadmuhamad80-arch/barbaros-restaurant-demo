@@ -41,7 +41,7 @@ function HeroSlider() {
   }, []);
 
   return (
-    <section className="hero-slider" aria-label="عروض بربروس">
+    <section className="hero-slider" aria-label="عروض الشيف نونوه">
       {slides.map((slide, index) => (
         <div
           key={slide.id}

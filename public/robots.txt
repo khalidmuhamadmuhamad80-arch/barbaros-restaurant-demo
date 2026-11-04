@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://barbaros-restaurant-demo.vercel.app/sitemap.xml

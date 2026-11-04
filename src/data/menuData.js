@@ -89,14 +89,12 @@ export const drinks = [
     id: 101,
     name: 'كانز بيبسي',
     price: 10,
-    color: '#263b83',
     image: '/images/drinks/Pepsi.jpg',
   },
   {
     id: 102,
     name: 'كانز كوكاكولا',
     price: 10,
-    color: '#d62828',
     image: '/images/drinks/Coca cola.jpg',
   },
   {
@@ -163,23 +161,21 @@ export const extras = [
     name: '1 عيش بلدي',
     price: 1,
 
-    color: '#e8c58f',
-    image: '/images/extras/baladi-bread.jpg',
+    image: '/images/extras/eaysh baladiun.jpg',
   },
   {
     id: 202,
     name: '1 عيش شامي',
     price: 2,
-
-    color: '#e6c49b',
-    image: '/images/extras/shami-bread.jpg',
+    
+    image: '/images/extras/eaysh shamiun.jpg',
   },
   {
     id: 203,
     name: ' 1 عيش فينو',
     price: 3,
     color: '#e9c18a',
-    image: '/images/extras/fino-bread.jpg',
+    image: '/images/extras/eish finw.jpg',
   },
   {
     id: 204,
@@ -187,7 +183,7 @@ export const extras = [
     price: 5,
 
     color: '#b5d68c',
-    image: '/images/extras/pickles.jpg',
+    image: '/images/extras/mukhalal.jpg',
   },
   {
     id: 205,
@@ -195,35 +191,35 @@ export const extras = [
     price: 5,
 
     color: '#eddab0',
-    image: '/images/extras/tahini.jpg',
+    image: '/images/extras/tahina.jpg',
   },
   {
     id: 206,
     name: 'سلطة',
     price: 8,
     color: '#a9d98f',
-    image: '/images/extras/salad.jpg',
+    image: '/images/extras/sultanuh.jpg',
   },
   {
     id: 207,
     name: '1 كتشاب',
     price: 2,
     color: '#d95745',
-    image: '/images/extras/ketchup.jpg',
+    image: '/images/extras/katashib.jpg',
   },
   {
     id: 208,
     name: 'شطة ودقة',
     price: 5,
     color: '#ee9a82',
-    image: '/images/extras/shatta-daqqa.jpg',
+    image: '/images/extras/Shatta.jpg',
   },
   {
     id: 209,
     name: 'بطاطس',
     price: 10,
     color: '#e8bd63',
-    image: '/images/extras/fries.jpg',
+    image: '/images/extras/batatis.jpg',
   },
 ];
 

@@ -1,3 +1,4 @@
+
 import { Link, useNavigate } from 'react-router-dom';
 
 import './Header.css';
@@ -18,10 +19,18 @@ function Header({ cartCount = 0, onOpenModal }) {
           <button
             className="header-brand"
             onClick={handleLogoClick}
-            aria-label="العودة إلى أعلى الصفحة"
+            aria-label="الشيف نونوه - العودة إلى الصفحة الرئيسية"
           >
-            <span className="brand-icon">ب</span>
-            <span className="brand-name">بربروس</span>
+            <img
+              src="/chef-nonoh-logo.png"
+              alt="الشيف نونوه"
+              className="brand-logo"
+            />
+
+            <span className="brand-copy">
+              <span className="brand-title">الشيف</span>
+              <span className="brand-name">نونوه</span>
+            </span>
           </button>
 
           <Link

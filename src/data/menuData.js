@@ -14,7 +14,7 @@ export const dishes = [
     price: 0,
     description: 'طاجن فراخ سخن وطعمه حكاية.. جربه ومش هتندم!',
     color: '#e9967a',
-    image: '/images/dishes/tajin-chicken.jpg',
+    image: '/images/dishes/tajin lahmah.jpg',
   },
   {
     id: 3,

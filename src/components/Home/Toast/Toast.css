@@ -1,0 +1,30 @@
+.toast-message {
+  position: fixed;
+  z-index: 3000;
+  right: 50%;
+  bottom: 24px;
+  max-width: calc(100% - 32px);
+  padding: 10px 20px;
+  border-radius: 24px;
+  background-color: #3b2418;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transform: translateX(50%);
+  animation: toast-show 0.25s ease both;
+}
+
+@keyframes toast-show {
+  from {
+    opacity: 0;
+    transform: translate(50%, 20px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(50%, 0);
+  }
+}

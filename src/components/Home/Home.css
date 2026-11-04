@@ -1,0 +1,13 @@
+
+/* =================================
+   Home Page
+================================= */
+
+.home-page {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--bg);
+  color: var(--ink);
+  direction: rtl;
+  overflow-x: hidden;
+}

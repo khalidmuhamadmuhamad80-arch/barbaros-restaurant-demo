@@ -1,0 +1,59 @@
+
+/* =================================
+   Navigation Bar
+================================= */
+
+.main-navbar {
+  width: 100%;
+  background-color: var(--navbar-bg);
+}
+
+.navbar-container {
+  width: 100%;
+  max-width: var(--container-width);
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+
+/* =================================
+   Navigation Links
+================================= */
+
+.navbar-link {
+  width: 100%;
+  padding: 11px 4px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+  background: transparent;
+  color: #ffffff;
+
+  font-size: 15px;
+  font-weight: 600;
+  white-space: nowrap;
+
+  transition: background-color 0.2s ease;
+}
+
+.navbar-link:hover,
+.navbar-link:active {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+/* =================================
+   Mobile
+================================= */
+
+@media (max-width: 600px) {
+  .navbar-link {
+    padding: 10px 2px;
+    font-size: 13.5px;
+  }
+}

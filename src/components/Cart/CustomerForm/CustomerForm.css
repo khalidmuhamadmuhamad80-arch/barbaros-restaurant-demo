@@ -1,0 +1,65 @@
+.customer-form-panel {
+  padding: 16px;
+}
+
+.customer-form-panel .cart-panel-title {
+  margin-bottom: 18px;
+}
+
+.customer-form-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.customer-field {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.customer-field label {
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.customer-field input {
+  width: 100%;
+  min-height: 44px;
+  padding: 11px 12px;
+  background-color: var(--bg);
+  border: 1.5px solid var(--line);
+  border-radius: 10px;
+  outline: none;
+  color: var(--ink);
+  font-family: var(--font-main);
+  font-size: 15px;
+  transition: border-color 0.2s ease;
+}
+
+.customer-field input::placeholder {
+  color: var(--muted);
+  opacity: 0.8;
+}
+
+.customer-field input:focus {
+  border-color: var(--red);
+}
+
+.customer-field input.input-error {
+  border-color: #d32f2f;
+}
+
+.customer-error-message {
+  color: #d32f2f;
+  font-size: 12.5px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .customer-form-panel {
+    padding: 14px;
+  }
+}

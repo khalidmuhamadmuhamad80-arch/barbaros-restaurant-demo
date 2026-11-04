@@ -1,0 +1,147 @@
+
+/* =================================
+   Header
+================================= */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: var(--red);
+  color: #ffffff;
+  box-shadow: var(--shadow-header);
+  z-index: 1000;
+}
+
+
+/* =================================
+   Header Main
+================================= */
+
+.header-main {
+  width: 100%;
+}
+
+.header-container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 10px 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+
+/* =================================
+   Brand
+================================= */
+
+.header-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: #ffffff;
+
+  cursor: pointer;
+}
+
+.brand-icon {
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  background-color: var(--gold);
+
+  color: var(--ink);
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.brand-name {
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 1.4;
+}
+
+
+/* =================================
+   Cart Button
+================================= */
+
+.header-cart {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  padding: 8px 14px;
+
+  background-color: #ffffff;
+  color: var(--red);
+
+  border-radius: var(--radius-pill);
+  font-size: 15px;
+  font-weight: 700;
+
+  white-space: nowrap;
+  transition: transform 0.2s ease;
+}
+
+.header-cart:active {
+  transform: scale(0.96);
+}
+
+.cart-count {
+  min-width: 22px;
+  height: 22px;
+  padding: 0 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  background-color: var(--red);
+  color: #ffffff;
+
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+
+/* =================================
+   Mobile
+================================= */
+
+@media (max-width: 600px) {
+  .header-container {
+    padding: 8px 14px;
+  }
+
+  .brand-icon {
+    width: 36px;
+    height: 36px;
+    font-size: 20px;
+  }
+
+  .brand-name {
+    font-size: 23px;
+  }
+
+  .header-cart {
+    padding: 7px 12px;
+    font-size: 14px;
+  }
+}

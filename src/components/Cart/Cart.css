@@ -1,0 +1,152 @@
+.cart-page {
+  min-height: 100vh;
+  background-color: var(--bg);
+}
+
+.cart-container {
+  width: min(100% - 28px, 900px);
+  margin: 0 auto 60px;
+  padding: 18px 0;
+}
+
+.cart-page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.cart-page-header h1 {
+  color: var(--ink);
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.cart-back-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 16px;
+  border: 2px solid var(--red);
+  border-radius: 22px;
+  color: var(--red);
+  font-size: 14px;
+  font-weight: 700;
+  white-space: nowrap;
+  transition: background-color 0.2s ease;
+}
+
+.cart-back-button:hover {
+  background-color: rgba(200, 50, 30, 0.08);
+}
+
+/* Empty Cart */
+
+.cart-empty-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 42px 20px;
+  background-color: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  box-shadow: var(--shadow-card);
+  text-align: center;
+}
+
+.cart-empty-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 76px;
+  height: 76px;
+  margin-bottom: 16px;
+  background-color: rgba(242, 165, 22, 0.13);
+  border-radius: 50%;
+  font-size: 34px;
+}
+
+.cart-empty-panel h2 {
+  margin-bottom: 8px;
+  color: var(--ink);
+  font-size: 21px;
+  font-weight: 800;
+}
+
+.cart-empty-panel p {
+  margin-bottom: 22px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.cart-empty-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 340px;
+  padding: 13px;
+  background-color: var(--gold);
+  border-radius: 12px;
+  color: #3b2418;
+  font-size: 17px;
+  font-weight: 800;
+  transition: opacity 0.2s ease;
+}
+
+.cart-empty-button:hover {
+  opacity: 0.9;
+}
+
+/* Responsive */
+
+@media (max-width: 600px) {
+  .cart-container {
+    padding-top: 16px;
+  }
+
+  .cart-page-header h1 {
+    font-size: 22px;
+  }
+
+  .cart-back-button {
+    padding: 7px 12px;
+    font-size: 13px;
+  }
+
+  .cart-empty-panel {
+    padding: 34px 16px;
+  }
+}
+.cart-confirm-button {
+  display: block;
+  width: 100%;
+  padding: 13px 16px;
+
+  background-color: var(--gold);
+  border: none;
+  border-radius: 12px;
+
+  color: var(--ink);
+  font-family: var(--font-main);
+  font-size: 17px;
+  font-weight: 800;
+
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.cart-confirm-button:hover {
+  opacity: 0.9;
+}
+
+.cart-confirm-button:active {
+  transform: scale(0.99);
+}
+
+.cart-confirm-button:focus-visible {
+  outline: 2px solid var(--red);
+  outline-offset: 3px;
+}

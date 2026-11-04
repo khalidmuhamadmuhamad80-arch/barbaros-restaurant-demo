@@ -1,0 +1,32 @@
+.dishes-section {
+  width: 100%;
+  max-width: var(--container-width);
+  margin: 26px auto 0;
+  scroll-margin-top: 125px;
+}
+
+.dishes-heading {
+  padding: 0 14px;
+  margin-bottom: 12px;
+}
+
+.dishes-heading h2 {
+  color: var(--ink);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1.6;
+}
+
+.dishes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 16px;
+  padding: 0 14px;
+}
+
+@media (max-width: 600px) {
+  .dishes-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+}
